@@ -1,0 +1,81 @@
+li{
+    list-style: none;
+    text-decoration: none;
+}
+a:hover{
+    color:#000;
+}
+body{
+    font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-rendering: optimizeSpeed;
+  color: #ffffff;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100vh;
+    background: red;
+    position: fixed;
+    top:0;
+    left: 0;
+    transition: .4s;
+}
+button{
+    position: absolute;
+    top:0;
+    right: 20px;
+
+}
+.close{
+    font-size: 30px;
+    position: absolute;
+    top:0;
+    right: 20px;
+    background:transparent;
+    padding: 10px ;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+    color:#000;
+    border-radius: 10px;
+   
+
+}
+.close:hover{
+    background: #EB5F60;
+    color:#ffffff
+}
+
+li{    text-decoration: none;
+    color:#000000 !important;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 13px 20px;
+    background-color: transparent;
+    border: 0;
+    display: block;
+    border-bottom: 1px solid black;
+}
+.link{
+    text-decoration: none;
+    color:#000000 !important;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 0;
+    display: block;
+}
+.card-body{
+    background: green !important;
+    padding: 0;
+}
+.card-body li{
+    padding-left: 0;
+}
+button{
+    margin-top:20px;
+}

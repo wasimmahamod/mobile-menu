@@ -1,0 +1,15 @@
+@media (min-width:320px) and (max-width:575px){
+    .sidebar {
+        width: 60%;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .sidebar {
+        width: 60%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .sidebar {
+        width: 60%;
+    }
+}
