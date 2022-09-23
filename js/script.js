@@ -14,5 +14,5 @@ btn.addEventListener('click',function(){
 
 })
 close.addEventListener('click',function(){
-    sidbar.style.left='-20%'
+    sidbar.style.left='-60%'
 })
